@@ -56,8 +56,8 @@ public class BbcSportSteps {
         Thread.sleep(2000);
     }
 
-    @Then("I print the driver's name")
-    public void i_print_the_driver_name() throws InterruptedException {
+    @Then("I print the name of the driver")
+    public void i_print_the_name_of_the_driver() throws InterruptedException {
         WebElement thirdPlaceDriver = driver.findElement(By.xpath("//*[@id=\"main-data\"]/div/div/div/section[2]/div/div/div[1]/table/tbody/tr[3]/td[2]/div"));
         System.out.println("3rd place driver is: " + thirdPlaceDriver.getText());
         Thread.sleep(2000);

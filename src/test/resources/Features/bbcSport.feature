@@ -6,7 +6,7 @@ Feature: BBC Sport Web Automation
     And   I confirmed that the results page has been displayed
     And   I navigate to the year on the results page
     And   I retrieve the 3rd place driver at the Las Vegas Grand Prix on 19 November 2023
-    Then  I print the driver's name
+    Then  I print the name of the driver
 
   Scenario: Retrieve First 3 Results Of Search
     Given   I navigate to the BBC Sport page
