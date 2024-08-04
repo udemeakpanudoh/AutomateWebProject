@@ -12,7 +12,7 @@ Dependencies needed are:
       junit 4.13.2
       slf4j-simple 2.0.12
       selenium-devtools-v126 4.23.0 - This catered for the CDC compatibilty issues with the version of Chrome driver.
-      webdrivermanager 5.3.1
+      webdrivermanager 5.9.1
 
 Instructions to Run the Tests
 
