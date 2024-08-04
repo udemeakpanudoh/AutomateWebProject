@@ -45,4 +45,6 @@ Open Maven GUI on IntelliJ, navigate to your project directory, and click on the
 >> compile
 >> test
 
+Assumptions Made: The url "https://www.bbc.com/sport" is publicly accessible without authentication. It follows the documented structure highlighted above consistently. The environment is set up with Maven and Java installed. This setup and the provided tests allows one to test the BBCSports website according to the provided requirements.
+
 
