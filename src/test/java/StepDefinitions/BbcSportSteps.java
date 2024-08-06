@@ -79,7 +79,7 @@ public class BbcSportSteps {
         for (int i = 0; i < 3 && i < searchResults.size(); i++) {
             WebElement result = searchResults.get(i);
             String resultTitle = result.getText();
-            System.out.println("Title " + (i + 1) + ": " + resultTitle);
+            System.out.println("Title is: " + (i + 1) + ": " + resultTitle);
         }
     }
 
